@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment
+.env
+
+# Generated files (keep folder structure)
+outputs/*
+!outputs/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+reports/phase_2/figures/*
+!reports/phase_2/figures/.gitkeep
+reports/phase_2/tables/*
+!reports/phase_2/tables/.gitkeep
